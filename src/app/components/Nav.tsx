@@ -4,12 +4,12 @@ import './nav.css';
 import { useRouter, usePathname } from 'next/navigation';
 
 const navs = [
-    { id: 1, name: 'Home', target: 'hero', active: true },
-    { id: 2, name: 'Sobre', target: 'about', active: false },
+  //  { id: 1, name: 'Home', target: 'hero', active: true },
+    { id: 2, name: 'Faça sua Capinha', target: 'about', active: false },
    // { id: 3, name: 'Menu', target: 'menu', active: false },
-    { id: 4, name: 'Especialidades', target: 'specials', active: false },
-    { id: 5, name: 'Eventos', target: 'events', active: false },
-    { id: 6, name: 'Especialistas', target: 'chefs', active: false },
+    { id: 4, name: 'Coleções', target: 'specials', active: false },
+    { id: 5, name: 'Acessórios', target: 'events', active: false },
+    { id: 6, name: 'Lançamentos', target: 'chefs', active: false },
     { id: 7, name: 'Galeria', target: 'gallery', active: false },
 //    { id: 8, name: 'Contato', target: 'contact', active: false },
 ];
@@ -82,6 +82,13 @@ export default function Nav() {
             id="navbar"
             className={`navbar order-last order-lg-0 ${open ? 'navbar-mobile' : undefined}`}
         >
+            <div className="header-search">
+            <input type="text" className="search-input" placeholder="Pesquise pelo produto..." />
+            <button className="search-btn">
+                <i className="bi bi-search"></i>
+            </button>
+            </div>
+
             <ul>
                 {navList.map(nav => (
                     <li key={nav.id} className={`nav-link scrollto ${nav.active ? 'active' : undefined}`}>

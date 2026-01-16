@@ -10,7 +10,7 @@
 /* Validation Messages */
 .book-a-table .booking-form .error-message {
     color: #fff;
-    background: #cda45e;
+    background: #176c43;
     text-align: left;
     padding: 15px;
     font-weight: 600;
@@ -40,7 +40,7 @@
     width: 24px;
     height: 24px;
     margin: 0 10px -6px 0;
-    border: 3px solid #cda45e;
+    border: 3px solid #176c43;
     border-top-color: #1a1814;
     -webkit-animation: animate-loading 1s linear infinite;
     animation: animate-loading 1s linear infinite;
@@ -85,7 +85,7 @@
 /* Focus States */
 .book-a-table .booking-form input:focus,
 .book-a-table .booking-form textarea:focus {
-    border-color: #cda45e;
+    border-color: #176c43;
 }
 
 /* Sizing */
@@ -99,7 +99,7 @@
 
 /* Submit Button */
 .book-a-table .booking-form button[type='submit'] {
-    background: #cda45e;
+    background: #176c43;
     border: 0;
     padding: 10px 35px;
     color: #fff;

@@ -39,7 +39,7 @@
 }
 
 #hero h1 span {
-  color: #cda45e;
+  color: #6FAF8E;
 }
 
 #hero h2 {
@@ -55,7 +55,7 @@
 #hero .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#cda45e 50%, rgba(205, 164, 94, 0.4) 52%);
+  background: radial-gradient(#6FAF8E 50%, rgba(205, 164, 94, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: relative;
@@ -96,7 +96,7 @@
 }
 
 #hero .play-btn:hover::after {
-  border-left: 15px solid #cda45e;
+  border-left: 15px solid #6FAF8E;
   transform: scale(20);
 }
 
@@ -179,5 +179,48 @@
   100% {
     transform: scale(1, 1);
     opacity: 0;
+  }
+}
+
+/* efeito de abertura do vídeo */
+.video-open {
+  animation: videoOpenAnim 0.5s ease forwards;
+}
+
+@keyframes videoOpenAnim {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
+/* vídeo maior e mais para a direita */
+.hero-video {
+  width: 700px; /* aumenta o tamanho */
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  /* posicionamento */
+  position: relative;
+  left: 100px; /* desloca para a direita */
+}
+
+/* mantém efeito de abertura */
+.video-open {
+  animation: videoOpenAnim 0.5s ease forwards;
+}
+
+@keyframes videoOpenAnim {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
   }
 }

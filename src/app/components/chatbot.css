@@ -20,13 +20,13 @@
   gap: 10px;
   padding: 0 0 0 10px;            /* menos padding para aproximar a borda da imagem */
   border-radius: 40px;
-  background-color: rgba(19, 19, 19, 0.8);
+  background-color: rgba(19, 19, 19, 0.5);
   border: none;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
   cursor: pointer;
   z-index: 9999;
   font-size: 16px;
-  color: rgb(170, 117, 68);
+  color:  #2c6316;
   font-weight: 600;
   transition: transform 0.2s ease-in-out;
   animation: bounce 2.5s infinite ease-in-out;
@@ -42,14 +42,14 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  border: 2px solid rgb(170, 117, 68);
+  border: 2px solid  #2c6316;;
 }
 
 /* Texto ao lado da imagem */
 .chatbot-text {
   white-space: nowrap;
   user-select: none;
-  color: rgb(170, 117, 68);
+  color:  #52b12d;;
   /* cor laranja */
   font-weight: 700;
   /* mais forte */
@@ -78,7 +78,7 @@
 
 /* Cabeçalho do chat */
 .chatbot-header {
-  background-color: rgb(170, 117, 68);
+  background-color:  #2c6316;;
   color: white;
   padding: 12px 16px;
   font-weight: 600;
@@ -124,14 +124,14 @@
 }
 
 .chatbot-input input:focus {
-  border-color: rgb(170, 117, 68);
-  box-shadow: 0 0 4px rgb(170, 117, 68);
+  border-color:  #2c6316;;
+  box-shadow: 0 0 4px  #2c6316;;
 }
 
 .chatbot-input button {
   margin-left: 10px;
   padding: 10px 18px;
-  background-color: rgb(170, 117, 68);
+  background-color:  #2c6316;;
   color: white;
   border: none;
   border-radius: 6px;

@@ -12,24 +12,24 @@
   transition: 0.3s;
   color: #fff;
   border-radius: 0;
-  border-right: 2px solid #cda45e;
+  border-right: 2px solid #176c43;
   font-weight: 600;
   font-size: 15px;
   cursor: pointer;
 }
 
 .specials .nav-link:hover {
-  color: #cda45e;
+  color: #176c43;
 }
 
 .specials .nav-link.active {
   color: #1a1814;
-  background: #cda45e;
-  border-color: #cda45e;
+  background: #176c43;
+  border-color: #176c43;
 }
 
 .specials .nav-link:hover {
-  border-color: #cda45e;
+  border-color: #176c43;
 }
 
 @media (max-width: 992px) {

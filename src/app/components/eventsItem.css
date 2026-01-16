@@ -5,7 +5,7 @@
 .events .event-item h3 {
     font-weight: 600;
     font-size: 26px;
-    color: #cda45e;
+    color: #176c43;
 }
 
 .events .event-item .price {
@@ -16,7 +16,7 @@
 }
 
 .events .event-item .price span {
-    border-bottom: 2px solid #cda45e;
+    border-bottom: 2px solid #176c43;
 }
 
 .events .event-item ul {
@@ -31,7 +31,7 @@
 .events .event-item ul i {
     font-size: 20px;
     padding-right: 4px;
-    color: #cda45e;
+    color: #176c43;
 }
 
 .events .event-item p:last-child {
